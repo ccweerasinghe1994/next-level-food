@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         popins: ["var(--font-popins)", "sans-serif"],
         quicksand: ["var(--font-quicksand)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
       colors: {
         background: "var(--background)",

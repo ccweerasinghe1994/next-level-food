@@ -1,4 +1,4 @@
-import { Poppins, Quicksand } from "next/font/google";
+import { Montserrat, Poppins, Quicksand } from "next/font/google";
 const popins = Poppins({
   variable: "--font-popins",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -9,4 +9,9 @@ const quicksand = Quicksand({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-export { popins, quicksand };
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+export { popins, quicksand, montserrat };
